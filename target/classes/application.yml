@@ -1,0 +1,18 @@
+server:
+  port: 9090
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/showens_mari
+    username: postgres
+    password: 106513545
+
+
+jpa:
+  database-platform: org.hibernate.spatial.dialect.postgis.PostgisDialect
+  database: POSTGRESQL
+  hibernate:
+    ddl-auto: update
+  show-sql:  true
+
